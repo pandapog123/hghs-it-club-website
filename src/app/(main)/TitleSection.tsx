@@ -23,7 +23,6 @@ export default function TitleSection() {
           if (!titleIncreasing) {
             return prevText.split("").slice(0, -1).join("");
           } else {
-            console.log("test");
             return titles[currentTitleIndex]
               .split("", prevText.length + 1)
               .join("");

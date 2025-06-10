@@ -1,5 +1,17 @@
+"use client";
+
 import StyledLink from "@/components/StyledLink";
 import Link from "next/link";
+import { usePathname, useSearchParams } from "next/navigation";
+import {
+  createContext,
+  Dispatch,
+  PropsWithChildren,
+  SetStateAction,
+  useContext,
+  useEffect,
+  useState,
+} from "react";
 
 export default function TopBar() {
   return (
